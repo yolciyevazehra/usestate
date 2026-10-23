@@ -10,7 +10,7 @@ function State() {
             <div className='flex items-center justify-center flex-col'>
                 <h1 className='text-4xl text-center mt-25 text-black'>{number < 0 ? 0 : number}</h1>
                 <div className='flex gap-3 mt-4'>
-                    <button onClick={inc} className='bg-purple-400 p-2 text-2xl rounded-xl '>+</button>    <button onClick={dec} className='bg-purple-400 p-2   text-2xl rounded-xl text-white'>-</button>
+                    <button onClick={inc} className='bg-purple-400 p-2 text-2xl rounded-xl text-white'>+</button>    <button onClick={dec} className='bg-purple-400 p-2   text-2xl rounded-xl text-white'>-</button>
                 </div>
             </div>
 
